@@ -1,0 +1,100 @@
+html,body,#root {
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding:0;
+height: 100%;
+background-image:rgb(202, 218, 215);
+
+}
+
+.Button{
+  color:#2C3C5B;
+}
+.CouponBox{
+  display: inline-block;
+  background-color: white;
+  backface-visibility: hidden;
+  width: 260px;
+  text-align: center;
+  /* border: 1PX dashed black; */
+  padding: 0 10px;
+  margin: 15px;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  /*box-shadow: 3px 3px 5px rgb(56, 56, 56) ;*/
+}
+
+.CouponBox > img {
+  width: 240px;
+  height: 200px;
+}
+
+#fullCoupon {
+  width: 380px;
+}
+
+#fullCoupon> img {
+  width: 350px;
+  height: 300px;
+}
+
+
+.LoginBox{
+  /*color: #151F35;
+  background-color: rgb(10,197,168) ;*/
+  color: rgb(202, 218, 215);
+  background-color: rgba(13,163,140,1) ;
+  backface-visibility: hidden;
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  /*border: 1PX solid black;*/
+  padding: 0 10px;
+  margin: 20px;
+  margin-top: 50px;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#imgExample {
+  width: 260px;
+  height: 220px;
+
+}
+
+.myButtom{
+  color: #2C3C5B;
+  
+}
+
+.mainTitle h1{
+  color: white;
+  font-size: 50px;
+  text-shadow:  0px 0px 7px #000;
+}
+
+.mainTitle h2{
+  color: white;
+  font-size: 50px;
+  text-shadow:  0px 0px 5px rgb(10,197,168);
+  margin: 5px;
+  padding-bottom: 50px;
+
+}
+
+.mainTitle h3{
+  font-size: 35px;
+  margin: 35px;
+  margin-top: 80px;
+
+
+}
+
+.about {
+  line-height: 1.8;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+

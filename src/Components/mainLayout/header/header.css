@@ -1,0 +1,19 @@
+.header {
+    
+}
+
+.header>.logo {
+    position:absolute;
+    left: 30px;
+    top: 16px;
+    width: 250px;
+    height: 80px;
+}
+
+.header>.headerMenu{
+    position:absolute;
+    right: 30px;
+    top: 35px;
+
+
+}

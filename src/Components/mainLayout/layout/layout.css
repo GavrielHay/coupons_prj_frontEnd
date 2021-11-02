@@ -1,0 +1,56 @@
+.layout {
+    height: 100%;
+    box-sizing: border-box;
+    display: grid; /*2d build*/
+    grid-template-rows: 110px  auto auto 230px [end];
+    grid-template-columns: repeat(12,1fr); /*fr=fraction, 6->6 size*/
+}
+.layout>header{
+    grid-column: span 12; /*connection*/
+    background: rgb(10,197,168);
+    background: linear-gradient(115deg, rgba(10,197,168,1) 0%, rgba(10,197,168,1) 23%, rgba(13,163,140,1) 60%, rgba(11,148,127,1) 100%);
+    color: rgb(214, 230, 227)  ;
+}
+
+
+.layout>footer{
+    grid-column: span 12; /*connection*/
+    background-color: rgba(13,163,140,1);
+    color: rgb(214, 230, 227);
+}
+.layout>main{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color:rgb(209, 224, 222);
+    grid-column: span 12;
+    
+}
+.layout>aside{
+     /* #151F35 */
+
+    background-color:  #2C3C5B;
+    grid-column: span 12;
+    height: 60px;
+    position: sticky;
+    top: -2px;    
+    z-index:10;
+
+  
+}
+
+.layout>section{
+    grid-column: span 12;
+    height:500px;
+
+    
+    background-image: url("https://backendlessappcontent.com/714949D1-C002-AF07-FF15-EF82D744B200/ABC8004A-3104-4D43-8B11-A8C3A9493F71/files/site_imgs/gifts2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.layout>*{
+    /*
+    border: 1px solid rgb(216, 216, 216);
+    */
+}
+
